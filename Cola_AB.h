@@ -57,6 +57,7 @@ int esVacia(Cola_AB colprioAB)
 //a continuacion un intento de agregaDato...
 int SacaDato(Cola_AB colprioAB)
 {
+	int aux;
 	if (esVacia()!=0)
 	{ 
 		printf("\n Error, debe crear una cola\n");
@@ -66,6 +67,10 @@ int SacaDato(Cola_AB colprioAB)
 	{
 	   
         	if (esVacia()==0) { /* Hay algún elemento que sacar */
+        	int aux
+        	aux=dato;
+        	dato=dato->pto_insercion;
+        	free (aux);
 	
 	}
 }
