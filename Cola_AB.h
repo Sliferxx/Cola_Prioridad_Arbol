@@ -18,22 +18,21 @@ int Arreglo_AB[Tam_Arreglo];
 int pto_insercion;
 }Cola_AB;
 
-Cola_AB inicializa_colaAB(colprioAB){
+void inicializa_colaAB(Cola_AB colprioAB){
 	
 	colprioAB->tam = 0;
+	colprioAB->pto_insercion = 0;
 	i=0;
-	while(i <= Tam_Arreglo){
+	while(i <= colprioAB->Tam_Arreglo){
 		
-	(colprioAB->(Arreglo_AB[i]))=0;
-	 i++;
+		(colprioAB->Arreglo_AB[i])=0;
+		 i++;
 		
 	}
-	
-	return(colprioAB)
-	
+
 }
 
-mostrarAB(colprioAB){
+void mostrarAB(Cola_AB colprioAB){
     printf("                %d\n\n",a[0]); 
     printf("         %d             %d\n\n",a[1],a[2]);
     printf("     %d     %d     %d      %d\n\n",a[3],a[4],a[5],a[6]);
@@ -42,7 +41,7 @@ mostrarAB(colprioAB){
     getchar();
 }
 
-esVacia(colprioAB)
+int esVacia(Cola_AB colprioAB)
 {
    if(colprioAB->tam =0)
    {
