@@ -1,4 +1,4 @@
-#define Tam_Arreglo 15 
+
 Cola_AB inicializa_colaAB(colprioAB){
 	
 	colprioAB->tam = 0;
