@@ -54,7 +54,7 @@ int esVacia(Cola_AB colprioAB)
    }
 	 
 }
-//a continuacion un intento de agregaDato...
+
 int SacaDato(Cola_AB colprioAB)
 {
 	int aux;
@@ -75,7 +75,7 @@ int SacaDato(Cola_AB colprioAB)
 	}
 }
 
-
+//a continuacion un intento de agregaDato...
 int agregaDato(Cola_AB colprioAB, int dato){
 
 	//insertar "raiz"
