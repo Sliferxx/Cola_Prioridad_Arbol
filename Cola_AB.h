@@ -41,3 +41,17 @@ mostrarAB(colprioAB){
     fflush(stdin);
     getchar();
 }
+
+esVacia(colprioAB)
+{
+   if(colprioAB->tam =0)
+   {
+     printf ( “Cola esta vacía\n” );
+     return 1;
+   }
+   else
+   {
+     return 0; 
+   }
+	 
+}
