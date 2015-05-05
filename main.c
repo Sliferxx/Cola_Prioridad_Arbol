@@ -25,7 +25,7 @@ int main()
 	
 	inicializa_colaAB(colprioAB);  //gerardo
 	esVacia(colprioAB);     //yerko
-	agregaDato(colprioAB); //maycol
+	agregaDato(colprioAB, dato); //maycol
 	sacaDato(colprioAB);
 	mostrarAB(colprioAB);    //diego
 	return 0;
