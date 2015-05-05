@@ -32,3 +32,12 @@ Cola_AB inicializa_colaAB(colprioAB){
 	return(colprioAB)
 	
 }
+
+mostrarAB(colprioAB){
+    printf("                %d\n\n",a[0]); 
+    printf("         %d             %d\n\n",a[1],a[2]);
+    printf("     %d     %d     %d      %d\n\n",a[3],a[4],a[5],a[6]);
+    printf("   %d   %d  %d  %d  %d   %d  %d    %d\n\n",a[7],a[8],a[9],a[10],a[11],a[12],a[13],a[14]);
+    fflush(stdin);
+    getchar();
+}
