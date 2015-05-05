@@ -43,7 +43,7 @@ void mostrarAB(Cola_AB colprioAB){
 
 int esVacia(Cola_AB colprioAB)
 {
-   if(colprioAB->tam =0)
+   if(colprioAB->tam==0)
    {
      printf ( “Cola esta vacía\n” );
      return 1;
