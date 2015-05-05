@@ -69,7 +69,7 @@ int SacaDato(Cola_AB colprioAB)
         	if (esVacia()==0) { /* Hay algún elemento que sacar */
         	int aux
         	aux=dato;
-        	dato=dato->pto_insercion;
+        	dato=dato->pto_insercion++;
         	free (aux);
 	
 	}
