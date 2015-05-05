@@ -33,10 +33,10 @@ void inicializa_colaAB(Cola_AB colprioAB){
 }
 
 void mostrarAB(Cola_AB colprioAB){
-    printf("                %d\n\n",a[0]); 
-    printf("         %d             %d\n\n",a[1],a[2]);
-    printf("     %d     %d     %d      %d\n\n",a[3],a[4],a[5],a[6]);
-    printf("   %d   %d  %d  %d  %d   %d  %d    %d\n\n",a[7],a[8],a[9],a[10],a[11],a[12],a[13],a[14]);
+    printf("                %d\n\n",ArregloAB[0]); 
+    printf("         %d             %d\n\n",Arreglo_AB[1],a[2]);
+    printf("     %d     %d     %d      %d\n\n",Arreglo_AB[3],Arreglo_AB[4],Arreglo_AB[5],Arreglo_AB[6]);
+    printf("   %d   %d  %d  %d  %d   %d  %d    %d\n\n",Arreglo_AB[7],Arreglo_AB[8],Arreglo_AB[9],Arreglo_AB[10],Arreglo_AB[11],Arreglo_AB[12],Arreglo_AB[13],Arreglo_AB[14]);
     fflush(stdin);
     getchar();
 }
@@ -54,7 +54,7 @@ int esVacia(Cola_AB colprioAB)
    }
 	 
 }
-
+//
 int SacaDato(Cola_AB colprioAB)
 {
 	int aux;
