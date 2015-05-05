@@ -17,3 +17,18 @@ int tam;
 int Arreglo_AB[Tam_Arreglo];
 int pto_insercion;
 }Cola_AB;
+
+Cola_AB inicializa_colaAB(colprioAB){
+	
+	colprioAB->tam = 0;
+	i=0;
+	while(i <= Tam_Arreglo){
+		
+	(colprioAB->(Arreglo_AB[i]))=0;
+	 i++;
+		
+	}
+	
+	return(colprioAB)
+	
+}
