@@ -54,3 +54,36 @@ int esVacia(Cola_AB colprioAB)
    }
 	 
 }
+//a continuacion un intento de agregaDato...
+
+int agregaDato(Cola_AB colprioAB, int dato){
+
+	//insertar "raiz"
+	if (colprioAB->Arreglo_AB[0]==0){ //aca se compara y se ve si es el primer termino
+		colprioAB->Arreglo_AB[colprioAB->pto_insercion]=dato;   //aca se agrega el dato
+		(colaprioAB->pto_insercion)++;  //aqui se aumenta la posicion de insercion
+	}
+			
+	//a continuacion los casos cuando no es raiz:
+	else{
+		// a continuacion simplemente se inserta el dato en el punto de insercion
+		colprioAB->Arreglo_AB[colprioAB->pto_insercion]=dato; 
+			
+		int i=colprioAB->pto_insercion;
+		int padre=(i-1)/2);
+		int hijo=i; //ijo recien insertado
+		int posicionOrdenada=0;
+		while (i>=0)&&(!posicionOrdenada){
+			//si el ijo es menor que padre
+			if (Arreglo_AB[hijo]<Arreglo_AB[padre]){
+				//intercambio
+				int temp;
+				Arreglo_AB[hijo]=temp;
+				Arreglo_AB[hijo]=Arreglo_AB[padre];
+				Arreglo_AB[padre]=temp;
+				//fin intercambio
+			} 
+		}
+	}
+			
+}			
