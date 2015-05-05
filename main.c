@@ -24,9 +24,9 @@ int main()
 	colprioAB=malloc(sizeof(cola_AB));
 	
 	inicializa_colaAB(colprioAB);  //gerardo
-	esVacia(colprioAB);     //yerko
-	agregaDato(colprioAB, dato); //maycol
-	sacaDato(colprioAB);
+	esVacia(colprioAB);     //yerko y bryan
+	agregaDato(colprioAB, dato); //maycol y micael
+	sacaDato(colprioAB); // micael y bryan
 	mostrarAB(colprioAB);    //diego
 	return 0;
 }
