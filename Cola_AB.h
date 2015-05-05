@@ -18,7 +18,8 @@ int Arreglo_AB[Tam_Arreglo];
 int pto_insercion;
 }Cola_AB;
 
-void inicializa_colaAB(Cola_AB colprioAB){
+void inicializa_colaAB(Cola_AB colprioAB)
+{
 	
 	colprioAB->tam = 0;
 	colprioAB->pto_insercion = 0;
@@ -29,7 +30,6 @@ void inicializa_colaAB(Cola_AB colprioAB){
 		 i++;
 		
 	}
-
 }
 
 void mostrarAB(Cola_AB colprioAB){
